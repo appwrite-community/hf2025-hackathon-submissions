@@ -1,18 +1,35 @@
+<<<<<<< HEAD
 # CalmWave 🌊
+=======
+# Appwrite Hacktoberfest 2025 Hackathon
+>>>>>>> 448a06f (Update repo to HF2025)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-relax.appwrite.network-4A90B8?style=for-the-badge&logo=appwrite&logoColor=white)](https://relax.appwrite.network/)
 
+<<<<<<< HEAD
 > **Immediate, evidence-based grounding and calming during panic or anxiety attacks**
+=======
+- [Timeline](#timeline)
+- [Prizes](#prizes)
+- [How To Submit Your Project?](#how-to-submit-your-project)
+- [Rules and Code of Conduct](#rules-and-code-of-conduct)
+>>>>>>> 448a06f (Update repo to HF2025)
 
 CalmWave is a free, open-source React Native mobile app that provides instant access to calming interventions through breathing exercises, grounding techniques, nature sounds, and visual relaxation. Built with offline-first functionality to ensure help is always available when you need it most.
 
+<<<<<<< HEAD
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React Native](https://img.shields.io/badge/React%20Native-0.76-61DAFB.svg)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-~52.0-000020.svg)](https://expo.dev/)
 [![Powered by Appwrite](https://img.shields.io/badge/Powered%20by-Appwrite-F02E65.svg)](https://appwrite.io)
+=======
+* **Start Date and Time:** Oct 1st, 2025 at 12:00 AM UTC
+* **End Date and Time:** Oct 31st, 2025 at 11:59 PM UTC
+>>>>>>> 448a06f (Update repo to HF2025)
 
 ## ✨ Features
 
+<<<<<<< HEAD
 ### Core Calming Tools
 
 - **🌊 One-Tap Calm Mode** - Instant access to calming exercises without navigation friction
@@ -34,6 +51,16 @@ CalmWave is a free, open-source React Native mobile app that provides instant ac
 - **🎨 Beautiful UI** - Clean, minimal design that doesn't distract from calming
 - **♿ Accessible** - Built with accessibility in mind
 - **🔒 Privacy-Focused** - No forced accounts, optional anonymous analytics
+=======
+- **Top 5 projects**
+  - Appwriter swag kits
+    - Customized hoodie with GitHub username
+    - T-shirt
+    - Mouse pad
+    - Sticker sheet
+
+## How To Submit Your Project?
+>>>>>>> 448a06f (Update repo to HF2025)
 
 ## 🚀 Getting Started
 
@@ -41,7 +68,11 @@ CalmWave is a free, open-source React Native mobile app that provides instant ac
 
 See the [Quick Start Guide](docs/quick-start.md) for a streamlined setup process.
 
+<<<<<<< HEAD
 ### Prerequisites
+=======
+- [Sign up](https://apwr.dev/hf2025-hackathon) for the Hackathon.
+>>>>>>> 448a06f (Update repo to HF2025)
 
 - Node.js (v18 or higher)
 - npm or yarn
@@ -50,7 +81,11 @@ See the [Quick Start Guide](docs/quick-start.md) for a streamlined setup process
 
 ### Installation
 
+<<<<<<< HEAD
 1. **Clone the repository**
+=======
+- Visit the `submissions/` directory and create a copy of the `TEMPLATE_SUBMISSION.md` with the same filename as your project title.
+>>>>>>> 448a06f (Update repo to HF2025)
 
 ````bash
 git clone https://github.com/YOUR_USERNAME/calmwave.git
@@ -62,10 +97,19 @@ npm install
    npm install
 ````
 
+<<<<<<< HEAD
 3. **Configure Appwrite**
+=======
+### Step 3: Submit PR details on the hackathon website
+
+- Head back to the [hackathon website](https://apwr.dev/hf2025-hackathon).
+
+- Visit the hacker dashboard, and create a submission.
+>>>>>>> 448a06f (Update repo to HF2025)
 
    Create a `.env` file in the root directory:
 
+<<<<<<< HEAD
    ```bash
    cp .env.example .env
    ```
@@ -193,3 +237,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Note**: This app is not a replacement for professional mental health care. If you're struggling with anxiety, panic attacks, or other mental health concerns, please seek support from a qualified mental health professional.
+=======
+All participants must agree to the [Rules](RULES.md) and [Code of Conduct](CODE_OF_CONDUCT.md) to participate in the Hackathon.
+>>>>>>> 448a06f (Update repo to HF2025)
