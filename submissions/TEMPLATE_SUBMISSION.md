@@ -1,35 +1,39 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: Bhandare ki jaankari
 
 ## GitHub handle
-_Enter your GitHub handle_
+(github.com/doSwayamCode)
 
 <!--
 @adityaoberai
 -->
 
 ## Project Title
-_What is the name of your project?_
+Bhandare ki jaankari
 
 <!--
 CodeCapture
 -->
 
 ## Project Description    
-_What have you built during the hackathon?_
+Okay so I made a website where people can add bhandaras happening near them which remain on the website for straight 24 hours.
 
 <!--
 The project I created is...
 -->
 
 ## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
+The reason why I choosed this idea was because in India, every day someone goes to sleep with empty stomach.
+Not because food is not being cooked…but because it is not reaching them.
+That thought stayed with me. And while I can’t solve this massive problem overnight, I wanted to do something small but meaningful.
+
+I am not claiming this will end hunger. But if even a few more people find their way to food through this, Iwill call it worth it.
 
 <!--
 The reason I chose this idea/project was...
 -->
 
 ## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
+React, Typescript, Firebase, Supabase
 
 <!--
 The technologies I used...
@@ -52,24 +56,24 @@ e.g.:
 - [ ] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ ] Sites
+- [.] Sites
 
 ## Project Repo  
-_Share a public repo link of your project_
+(https://github.com/doSwayamCode/bhandare-ki-jaankari)
 
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
 -->
 
 ## Deployed Site URL
-_Share a `.appwrite.network` URL for your project_
+(https://bhandare-ki-jaankari.appwrite.network/)
 
 <!--
 https://hacktoberfest.appwrite.network
 -->
 
 ## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
+https://youtu.be/kuiaj2kceh8
 
 <!--
 https://www.youtube.com/watch?v=9IBaX1avYWc
