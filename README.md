@@ -7,6 +7,7 @@
 - [How To Submit Your Project?](#how-to-submit-your-project)
 - [Judging Criteria](#judging-criteria)
 - [Rules and Code of Conduct](#rules-and-code-of-conduct)
+- [Documentation](#documentation)
 
 ## Timeline
 
@@ -71,3 +72,7 @@ Projects will be judged based on the following criteria:
 ## Rules and Code of Conduct
 
 All participants must agree to the [Rules](RULES.md) and [Code of Conduct](CODE_OF_CONDUCT.md) to participate in the Hackathon.
+
+# Documentation 
+
+Appwrite helps you build secure and scalable apps, faster. Leverage Appwrite's powerful APIs to stop fighting technologies and start delivering value. Explore [documentation](https://appwrite.io/docs)
