@@ -25,7 +25,7 @@ between database operations and captured change streams.
 
 ### Appwrite products
 - [ ] Auth
-- [ ] Databases
+- [x] Databases
 - [ ] Storage
 - [ ] Functions
 - [ ] Messaging
@@ -33,10 +33,10 @@ between database operations and captured change streams.
 - [x] Sites
 
 ## Project Repo
-https://github.com/sandgraal/lets-talk-cdc
+https://github.com/sandgraal/Lets-Talk-CDC-Change-Feed-Playground
 
 ## Deployed Site URL
-In progress: https://lets-talk-cdc.appwrite.network
+https://letstalkcdc.appwrite.network/
 
 ## Demo Video/Photos
 In progress: https://youtu.be/<demo-link>
