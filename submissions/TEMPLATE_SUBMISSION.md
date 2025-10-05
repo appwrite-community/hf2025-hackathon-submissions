@@ -1,76 +1,52 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: <CHATAI>
 
 ## GitHub handle
-_Enter your GitHub handle_
+
+[_Enter your GitHub handle_](https://github.com/Sabirrh/)
 
 <!--
 @adityaoberai
 -->
 
 ## Project Title
-_What is the name of your project?_
+
+CHATAI
 
 <!--
-CodeCapture
--->
+CodeCapture -->
 
-## Project Description    
-_What have you built during the hackathon?_
+## Project Description
 
-<!--
-The project I created is...
--->
+ChatAI is an intelligent AI-powered chatbot designed to engage users in natural, meaningful conversations. It leverages modern AI models to understand user queries and provide helpful responses, assisting with various tasks and information needs.
 
-## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
+## Inspiration behind the Project
 
-<!--
-The reason I chose this idea/project was...
--->
+I created ChatAI to make information and assistance more accessible and interactive. I was inspired by the increasing role of AI in everyday applications and wanted to build a chatbot that feels human-like while being helpful, making it easier for users to get answers without searching through multiple sources.
 
-## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
 
-<!--
-The technologies I used...
--->
+## Tech Stack
+
+The project is built using React for the frontend UI, Redux for state management, and Socket.IO for real-time communication. It integrates with the OpenAI API to provide AI-powered chatbot responses.
 
 ### Appwrite products
+
 _Select all the Appwrite products you have used in your project_
 
-<!--
-Update the checkbox to [x] for the products used.
 
-e.g.:
-
-- [x] Auth 
--->
 
 - [ ] Auth
 - [ ] Databases
 - [ ] Storage
 - [ ] Functions
-- [ ] Messaging
-- [ ] Realtime
-- [ ] Sites
+- [x] Messaging
+- [x] Realtime
+- [x] Sites
 
-## Project Repo  
-_Share a public repo link of your project_
+## Project Repo
 
-<!--
-https://github.com/code-capture/CodeCapture-Xamarin
--->
+(https://github.com/Sabirrh/ChatAI)
+
 
 ## Deployed Site URL
-_Share a `.appwrite.network` URL for your project_
+(https://chatai-1-cujp.onrender.com/)
 
-<!--
-https://hacktoberfest.appwrite.network
--->
-
-## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
-
-<!--
-https://www.youtube.com/watch?v=9IBaX1avYWc
--->
