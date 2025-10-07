@@ -1,50 +1,26 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: VeriFact AI
 
 ## GitHub handle
-_Enter your GitHub handle_
-
-<!--
-@adityaoberai
--->
+@sanniv0
 
 ## Project Title
-_What is the name of your project?_
-
-<!--
-CodeCapture
--->
+VeriFact AI
 
 ## Project Description    
-_What have you built during the hackathon?_
-
-<!--
-The project I created is...
--->
+This is a project i built to analyze and verify the reliability of information sources. It aims to combat misinformation by providing users with tools to assess the credibility of content, offering insights into potential biases, factual accuracy, and overall trustworthiness.
 
 ## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
+The Reason I choose this project is because in today's information-saturated world, combating misinformation is more crucial than ever.This project directly tackles that challenge by providing tools to assess the reliability of information sources.
 
-<!--
-The reason I chose this idea/project was...
--->
-
-## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
-
-<!--
-The technologies I used...
--->
+## Tech Stack 
+The Technologies i have used are:-  
+Frontend: Next.js (React), Tailwind CSS, Radix UI
+Language: TypeScript
+Package Manager: npm
+API Integration: Gemini AI for AI-powered analysis.
 
 ### Appwrite products
 _Select all the Appwrite products you have used in your project_
-
-<!--
-Update the checkbox to [x] for the products used.
-
-e.g.:
-
-- [x] Auth 
--->
 
 - [ ] Auth
 - [ ] Databases
@@ -52,25 +28,16 @@ e.g.:
 - [ ] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ ] Sites
+- [x] Sites
 
 ## Project Repo  
-_Share a public repo link of your project_
-
-<!--
-https://github.com/code-capture/CodeCapture-Xamarin
--->
+https://github.com/sanniv0/VeriFact-AI
 
 ## Deployed Site URL
-_Share a `.appwrite.network` URL for your project_
+https://verifact-ai.appwrite.network/
 
-<!--
-https://hacktoberfest.appwrite.network
--->
 
 ## Demo Video/Photos  
 _Share a 2-3 minute demo video of your project_
 
-<!--
-https://www.youtube.com/watch?v=9IBaX1avYWc
--->
+https://www.loom.com/share/d89c7360c1d547859d7a21899bdda30d?sid=59434566-9376-43d3-a54b-98748ae50494
