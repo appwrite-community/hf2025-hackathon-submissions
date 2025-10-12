@@ -1,4 +1,4 @@
-# Hackathon Submission: <websec-scanner>
+# Hackathon Submission: WebSecurity-Scanner
 
 ## GitHub handle
 _Enter your GitHub handle_
@@ -10,28 +10,33 @@ _Enter your GitHub handle_
 _What is the name of your project?_
 
 
-CodeCapture
+WebSecurity-Scanner
 
 
 ## Project Description    
 _What have you built during the hackathon?_
 
 
-The project I created is...
+During the hackathon I built a Web Security Scannera tool that helps identify vulnerabilities in websites.
+It scans for issues like SQL injection, XSS, and other common security flaws, giving developers actionable insights to make their websites safer.
+The project automates security testing making it faster and easier to detect potential risks.
 
 
 ## Inspiration behind the Project  
 _What is the story behind this project? Why did you choose to work on this specific idea?_
 
 
-The reason I chose this idea/project was...
+The reason I chose this project was that web security is becoming increasingly important yet many developers overlook it during development.
+I wanted to create a tool that makes it easier to identify vulnerabilities quickly, helping websites stay secure and protecting user data.
+The idea came from seeing how common attacks like SQL injection and XSS still affect many sites, and I wanted to build something practical that solves this real-world problem.
 
 
 ## Tech Stack    
 _How have you built this project? Mention the technologies/methods/platforms you used to build your project_
 
 
-The technologies I used...
+The technologies I used include Python for backend development, along with libraries for web scanning and security testing.
+The frontend was built with HTML, CSS, and JavaScript for a user-friendly interface. I also used GitHub for version control and deployment, ensuring the project is organized, maintainable, and easy to test.
 
 
 ### Appwrite products
@@ -45,27 +50,27 @@ e.g.:
 - [x] Auth 
 
 
-- [ ] Auth
-- [ ] Databases
+- [x] Auth
+- [x] Databases
 - [ ] Storage
-- [x] Functions
+- [] Functions
 - [ ] Messaging
-- [x] Realtime
-- [x] Sites
+- [] Realtime
+- [] Sites
 
 ## Project Repo  
 _Share a public repo link of your project_
 
-https://github.com/code-capture/CodeCapture-Xamarin
+https://github.com/CodeWithMehru/WebSecurity-Scanner
 
 
 ## Deployed Site URL
 _Share a `.appwrite.network` URL for your project_
 
-https://hacktoberfest.appwrite.network
+https://websecscanner.onrender.com/
 
 
 ## Demo Video/Photos  
 _Share a 2-3 minute demo video of your project_
 
-https://www.youtube.com/watch?v=9IBaX1avYWc
+https://www.instagram.com/code_with_mehru/reel/DIeONJeSXZh/
