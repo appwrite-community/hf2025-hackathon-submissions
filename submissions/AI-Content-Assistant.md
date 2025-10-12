@@ -33,7 +33,7 @@ The application uses a modern React architecture with Vite for fast development 
 https://github.com/sudhanshu-77/ai-content-assistant-hackathon
 
 ## Deployed Site URL
-https://your-project-url.appwrite.network
+https://ai-content-assistant-hackathon.appwrite.network
 
 ## Demo Video/Photos  
 https://your-demo-video-link.com
