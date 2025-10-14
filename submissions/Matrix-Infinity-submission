@@ -1,0 +1,95 @@
+# Hackathon Submission: Sponify
+
+## GitHub handle
+_Enter your GitHub handle_
+
+<!--
+@jitendra-rathore-iitm
+-->
+
+## Project Title
+_What is the name of your project?_
+
+<!--
+Sponify
+-->
+
+## Project Description    
+_What have you built during the hackathon?_
+
+<!--
+Sponify is a web platform that streamlines the sponsorship process. We connect organizations needing event funding directly with businesses looking to sponsor them.
+
+Sponsees create posts for their events, and sponsors create profiles with their interests (e.g., tech, sports). Our platform allows both sides to filter and browse a central board, making it easy to find a perfect match. Sponify eliminates the cold-calling and guesswork, helping build meaningful community partnerships.
+-->
+
+## Inspiration behind the Project  
+_What is the story behind this project? Why did you choose to work on this specific idea?_
+
+<!--
+The inspiration for Sponify came from my own frustrating experiences running student-led organizations. I discovered that finding sponsors was an incredibly tedious and manual process: endless googling, cold-emailing businesses, and having no idea if they were even interested. The process was broken.
+
+I built Sponify to be the solution I wish I had. It’s a central platform where organizations can directly connect with businesses that are actively looking to sponsor events. We wanted to eliminate the guesswork and help reconnect businesses with their local communities.-->
+
+## Tech Stack    
+_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
+
+<!--
+Backend: The server-side logic was built using Python with FastAPI, which handles our core application logic.
+
+Frontend: The user interface was developed with the React framework for a responsive, single-page application experience.
+
+Appwrite Integration: We heavily leveraged the Appwrite platform to accelerate our development:
+
+Database: We used an SQLAlchemy database for storing complex relational data like event posts and sponsor interests.
+
+Key Libraries & Tools:
+Authentication: User sign-up, login, and session management are all handled securely by Appwrite Auth. This allowed us to implement a robust user system in a fraction of the time.
+
+Data Validation: We leveraged Pydantic models to define clear data schemas for our API. This ensures that all incoming data is validated automatically, reducing errors and improving security.
+
+API Communication: The frontend communicates with our backend API using the Axios library to handle asynchronous HTTP requests for fetching data and submitting forms.
+
+Deployment: The entire project is deployed and hosted using Appwrite Sites, which provided a seamless connection to our GitHub repo for continuous deployment.
+
+-->
+
+### Appwrite products
+_Select all the Appwrite products you have used in your project_
+
+<!--
+Update the checkbox to [x] for the products used.
+
+e.g.:
+
+- [x] Auth 
+-->
+
+- [x] Auth
+- [ ] Databases
+- [ ] Storage
+- [ ] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [x] Sites
+
+## Project Repo  
+_Share a public repo link of your project_
+
+<!--
+https://github.com/jitendra-rathore-iitm/Sponify
+-->
+
+## Deployed Site URL
+_Share a `.appwrite.network` URL for your project_
+
+<!--
+https://hacktoberfest.appwrite.network
+-->
+
+## Demo Video/Photos  
+_Share a 2-3 minute demo video of your project_
+
+<!--
+https://www.youtube.com/watch?v=9IBaX1avYWc
+-->
