@@ -75,7 +75,7 @@ e.g.:
 ## Project Repo  
 _Share a public repo link of your project_
 
-https://github.com/mkccl/n8n-nodes-appwrite
+https://github.com/mkccl/n8n-nodes-appwrite-io
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
 -->
