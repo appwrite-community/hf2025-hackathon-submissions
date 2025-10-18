@@ -54,7 +54,7 @@ _Share a public repo link of your project_
 
 _Share a `.appwrite.network` URL for your project_
 
-TBD
+[https://cycling-mates.appwrite.network/](https://cycling-mates.appwrite.network/)
 
 ## Demo Video/Photos  
 
