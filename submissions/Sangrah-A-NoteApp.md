@@ -45,7 +45,7 @@ https://github.com/NamanjainAkt/Sangrah-A-NoteApp
 
 ## Deployed Site URL
 
-_Will be deployed on Appwrite soon_
+https://sangrah.appwrite.network
 
 ## Demo Video/Photos
 
