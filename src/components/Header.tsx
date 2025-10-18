@@ -7,12 +7,13 @@ import {
   Dimensions,
 } from "react-native";
 import { ImageBackground } from "expo-image";
-import { LoadingLine } from "@/components/status-lines/LoadingLine";
+import { LoadingLine } from "./status-lines/LoadingLine";
 import { SuccessLine } from "@/components/status-lines/SuccessLine";
 import { fontStyles } from "@/styles/font";
 import { Button } from "@/components/Button";
 import ReactLogo from "@/assets/images/react";
 import AppwriteLogo from "@/assets/images/appwrite";
+
 
 interface HeaderProps {
   state: "idle" | "loading" | "success" | "error";
@@ -68,7 +69,7 @@ export const Header = ({ state, pingFunction }: HeaderProps) => {
 
   return (
     <ImageBackground
-      source={require("../assets/images/grid-desktop.png")}
+  source={require("@/assets/images/grid-desktop.png")}
       style={styles.background}
     >
       <View style={styles.container}>
@@ -151,10 +152,7 @@ const styles = StyleSheet.create({
     borderColor: "#19191C0A",
     backgroundColor: "#F9F9FA",
     padding: 12,
-    shadowColor: "rgba(0, 0, 0, 0.04)",
-    shadowOffset: { width: 0, height: 9.36 },
-    shadowOpacity: 1,
-    shadowRadius: 9.36,
+    boxShadow: "0px 9.36px 9.36px rgba(0, 0, 0, 0.04)",
     elevation: 5,
   },
   iconInnerContainer: {
@@ -168,10 +166,7 @@ const styles = StyleSheet.create({
           ? 24
           : 36
         : 20,
-    shadowColor: "rgba(0, 0, 0, 0.03)",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 1,
-    shadowRadius: 12,
+    boxShadow: "0px 2px 12px rgba(0, 0, 0, 0.03)",
     elevation: 4,
   },
 });

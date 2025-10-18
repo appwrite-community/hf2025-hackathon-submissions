@@ -1,9 +1,12 @@
+import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-interface PillProps {
+
+export interface PillProps {
   text: string;
   status: "success" | "error";
 }
-export const Pill = ({ text, status }: PillProps) => {
+
+const Pill: React.FC<PillProps> = ({ text, status }) => {
   return (
     <View
       style={{
@@ -25,7 +28,7 @@ export const Pill = ({ text, status }: PillProps) => {
 
 const styles = StyleSheet.create({
   pill: {
-    paddingInline: 4,
+    paddingHorizontal: 4,
     borderRadius: 6,
   },
   text: {
@@ -44,3 +47,5 @@ const styles = StyleSheet.create({
     backgroundColor: "#B312123D",
   },
 });
+
+export default Pill;

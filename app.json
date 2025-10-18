@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "starter-react-native",
-    "slug": "starter-react-native",
+    "name": "Relax",
+    "slug": "relax",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,14 +20,14 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/appwrite-logo.png"
+      "favicon": "./src/assets/images/appwrite-logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./src/assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"

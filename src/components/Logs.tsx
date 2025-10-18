@@ -9,7 +9,7 @@ import {
 import { IconChevronDown } from "@/assets/images/IconChevronDown";
 import { IconChevronUp } from "@/assets/images/IconChevronUp";
 import { Log } from "@/types/log";
-import { Pill } from "@/components/Pill";
+import Pill from "@/components/Pill";
 import { Code } from "@/components/Code";
 
 interface LogsProps {
