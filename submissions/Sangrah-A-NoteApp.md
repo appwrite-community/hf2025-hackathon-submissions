@@ -24,7 +24,7 @@ The project is built using the following technologies:
 - [ ] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ ] Sites
+- [x] Sites
 ## Project Repo
 https://github.com/NamanjainAkt/Sangrah-A-NoteApp
 ## Deployed Site URL
