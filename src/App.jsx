@@ -4,7 +4,6 @@ import "./App.css";
 import authService from "./appwrite/auth";
 import { login, logout } from "./store/authSlice";
 import { Header, Footer } from "./components/index";
-import Main from "./main";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,10 +24,14 @@ function App() {
       });
   }, []);
   return !loading ? (
-    <div className="App">
+    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
       <Header />
-      <Main />
-
+      <main className="min-h-screen">
+        {/* Main content will go here */}
+        <div className="w-full py-8">
+          <h1>Welcome to AppWriteUp</h1>
+        </div>
+      </main>
       <Footer />
     </div>
   ) : (

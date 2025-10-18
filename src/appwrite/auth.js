@@ -41,11 +41,8 @@ export class AuthService {
     try {
       return await this.account.get();
     } catch (error) {
-      // 401 or missing session simply means user not logged in
-      if (error && error.code === 401) {
-        return null;
-      }
-      console.warn("Unexpected error fetching current user", error);
+      // Any error (401, network issues, etc.) means user not logged in
+      // This is expected when user is not authenticated, so we don't log it as an error
       return null;
     }
   }
