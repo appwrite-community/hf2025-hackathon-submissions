@@ -78,10 +78,10 @@ https://github.com/code-capture/CodeCapture-Xamarin
 I haven't deployed on appwrite network.
 but I have publish on npmjs.com,pypi.org,crates.io and rubygems.org
 
-https://pypi.org/project/package-installer-cli/
-https://www.npmjs.com/package/@0xshariq/package-installer
-https://crates.io/crates/package-installer-cli
-https://rubygems.org/gems/package-installer-cli
+https://pypi.org/project/package-installer-cli/ <br />
+https://www.npmjs.com/package/@0xshariq/package-installer/ <br />
+https://crates.io/crates/package-installer-cli/ <br />
+https://rubygems.org/gems/package-installer-cli/ <br />
 
 <!--
 https://hacktoberfest.appwrite.network
