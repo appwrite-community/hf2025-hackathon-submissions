@@ -1,0 +1,43 @@
+# Hackathon Submission: Starbucks-TheNextVersion
+
+## GitHub handle
+[Rajvansh-1](https://github.com/Rajvansh-1)
+
+## Project Title
+Starbucks-TheNextVersion
+
+## Project Description
+A modern, elegant, and fast redesign of the Starbucks user experience built with React and Vite. It features a minimalist design with smooth animations and transitions using Framer Motion and GSAP. The project includes key Starbucks features like browsing the menu, viewing rewards, gift cards, finding stores with Leaflet integration, and user authentication (login/signup) powered by Appwrite Auth. It also integrates a basic Appwrite Function. The application is designed to be responsive and mobile-friendly.
+
+## Inspiration behind the Project
+I’ve always admired Starbucks’ modern brand image — but I wanted to push it further with a developer’s creativity.
+So, I decided to rebuild Starbucks as a next-gen interactive web app, blending UI finesse, Appwrite’s backend power, and modern animation.
+It’s a personal experiment in branding, emotion, and cloud-driven interactivity, reimagining what a coffee brand could feel like in the digital world.
+
+## Tech Stack
+* **Frontend:** React, Vite, JavaScript
+* **Styling:** CSS Modules
+* **Animation:** Framer Motion, GSAP, Locomotive Scroll, Lenis
+* **Mapping:** React Leaflet, Leaflet
+* **Routing:** React Router DOM
+* **Backend & Deployment:** Appwrite Cloud (Auth, Functions, Sites)
+
+### Appwrite products
+_Select all the Appwrite products you have used in your project_
+
+- [x] Auth
+- [ ] Databases
+- [ ] Storage
+- [x] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [x] Sites *(Mandatory for the hackathon)*
+
+## Project Repo
+https://github.com/Rajvansh-1/Starbucks-TheNextVersion
+
+## Deployed Site URL
+https://starbucks-thenextversion.appwrite.network/
+
+## Demo Video/Photos
+https://drive.google.com/file/d/1qHIVAqW3BgYchfKAo7cVozKZgYcLtUcD/view?usp=sharing
