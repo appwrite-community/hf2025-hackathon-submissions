@@ -106,8 +106,9 @@ Teacher Dashboard:
 <img width="1600" height="770" alt="image" src="https://github.com/user-attachments/assets/74c041e4-5c39-41a1-be2d-42fdbd50e03a" />
 
 ### Video:
+https://youtu.be/AKnHaojpc8A?si=f-lJsyLr4rV70lqL
 
-
+https://youtu.be/ij_X9YjGw20?si=GCIO7hbAYDB9EdS2
 
 <!--_Share a 2-3 minute demo video of your project_ -->
 
