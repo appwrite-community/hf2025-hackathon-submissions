@@ -1,0 +1,142 @@
+{
+    "crises": {
+        "name": "Crises",
+        "permissions": [
+            "read:any",
+            "write:users"
+        ],
+        "attributes": [
+            {
+                "key": "title",
+                "type": "string",
+                "size": 255,
+                "required": true
+            },
+            {
+                "key": "description",
+                "type": "string",
+                "size": 1000,
+                "required": true
+            },
+            {
+                "key": "location",
+                "type": "string",
+                "size": 255,
+                "required": true
+            },
+            {
+                "key": "coordinates",
+                "type": "string",
+                "size": 100,
+                "required": true
+            },
+            {
+                "key": "severity",
+                "type": "string",
+                "size": 50,
+                "required": true
+            },
+            {
+                "key": "status",
+                "type": "string",
+                "size": 50,
+                "required": true
+            },
+            {
+                "key": "createdBy",
+                "type": "string",
+                "size": 36,
+                "required": true
+            }
+        ]
+    },
+    "resources": {
+        "name": "Resources",
+        "permissions": [
+            "read:any",
+            "write:users"
+        ],
+        "attributes": [
+            {
+                "key": "name",
+                "type": "string",
+                "size": 255,
+                "required": true
+            },
+            {
+                "key": "type",
+                "type": "string",
+                "size": 100,
+                "required": true
+            },
+            {
+                "key": "quantity",
+                "type": "integer",
+                "required": true
+            },
+            {
+                "key": "location",
+                "type": "string",
+                "size": 255,
+                "required": true
+            },
+            {
+                "key": "crisisId",
+                "type": "string",
+                "size": 36,
+                "required": true
+            },
+            {
+                "key": "status",
+                "type": "string",
+                "size": 50,
+                "required": true
+            },
+            {
+                "key": "contact",
+                "type": "string",
+                "size": 255,
+                "required": true
+            }
+        ]
+    },
+    "volunteers": {
+        "name": "Volunteers",
+        "permissions": [
+            "read:any",
+            "write:users"
+        ],
+        "attributes": [
+            {
+                "key": "userId",
+                "type": "string",
+                "size": 36,
+                "required": true
+            },
+            {
+                "key": "skills",
+                "type": "string",
+                "size": 500,
+                "required": true
+            },
+            {
+                "key": "location",
+                "type": "string",
+                "size": 255,
+                "required": true
+            },
+            {
+                "key": "availability",
+                "type": "string",
+                "size": 50,
+                "required": true
+            },
+            {
+                "key": "contact",
+                "type": "string",
+                "size": 255,
+                "required": true
+            }
+        ]
+    }
+}
