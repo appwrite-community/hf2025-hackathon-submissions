@@ -88,12 +88,7 @@ https://hacktoberfest.appwrite.network
 -->
 
 ## Demo Video/Photos  
-![Version of the cli](../assets/version.png)
-![Banner of the cli](../assets/banner.png)
-![Commands of the cli](../assets/commands.png)
-![Quick Usage of the cli](../assets/quick-usage.png)
-![Detailed usage of the cli](../assets/detailed-usage.png)
-![Pro Tip of the cli](../assets/pro-tip.png)
+https://drive.google.com/drive/folders/1KCV8JDKmqH3xmNgqJeuTAmaa3VxCOKvr?usp=drive_link
 
 <!--
 https://www.youtube.com/watch?v=9IBaX1avYWc
