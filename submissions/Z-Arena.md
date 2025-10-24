@@ -56,7 +56,7 @@ This entire, original-concept project was only feasible because **Appwrite handl
 - [x] Databases
 - [x] Storage
 - [x] Functions
-- [ ] Messaging
+- [x] Messaging
 - [x] Realtime
 - [x] Sites
 
@@ -73,5 +73,8 @@ https://z-arena.appwrite.network
 
 https://www.youtube.com/watch?v=1GY7YwbaORI&lc=UgwJAOxfZp44oEXF4zJ4AaABAg
 
+<a href="https://www.youtube.com/watch?v=1GY7YwbaORI" target="_blank">
+  <img width="1348" height="600" alt="z-arena" src="https://github.com/user-attachments/assets/c2454bfa-e427-432b-afc0-470984a2cfe3" />
+</a>
 
 ---
