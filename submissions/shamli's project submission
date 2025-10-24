@@ -23,14 +23,10 @@ The Givers' Spot is a community-driven web application built with Appwrite that 
 | **BaaS (Backend as a Service)** | **Appwrite** | Provides Database, Storage, and Realtime services. |
 
 
-### Appwrite products
-- [ ] Auth
-- [x] Databases
-- [x] Storage
-- [ ] Functions
-- [ ] Messaging
-- [x] Realtime
-- [x] Sites
+### Appwrite products used 
+- Databases
+- Storage
+- Sites
 
 ## Project Repo  
 Link of my project: https://github.com/Shamli-Singh-Yadav/The-Givers-Spot
