@@ -1,76 +1,42 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: Disaster Response Platform
 
 ## GitHub handle
-_Enter your GitHub handle_
-
-<!--
-@adityaoberai
--->
+@abhishek-Jain24
 
 ## Project Title
-_What is the name of your project?_
-
-<!--
-CodeCapture
--->
+Disaster Response Platform
 
 ## Project Description    
-_What have you built during the hackathon?_
-
-<!--
-The project I created is...
--->
+I built a comprehensive Disaster Response Platform that helps coordinate emergency responses during natural disasters and crises. The platform allows real-time crisis reporting, resource management, volunteer coordination, and automated alert notifications. It enables authorities and volunteers to efficiently manage emergency situations by providing a centralized system for crisis monitoring and response coordination.
 
 ## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
-
-<!--
-The reason I chose this idea/project was...
--->
+With increasing frequency of natural disasters and emergency situations worldwide, I noticed there's a need for efficient coordination between authorities, volunteers, and affected communities. Traditional methods of crisis management often lack real-time coordination and centralized information sharing. I wanted to create a platform that bridges this gap by providing instant crisis reporting, resource tracking, and volunteer management - ultimately helping save lives and reduce response times during emergencies.
 
 ## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
-
-<!--
-The technologies I used...
--->
+- **Frontend**: React.js with Vite, React Router for navigation
+- **Backend**: Appwrite for backend-as-a-service
+- **Database**: Appwrite Databases for crisis, resources, and volunteers data
+- **Authentication**: Appwrite Auth for user management
+- **Serverless Functions**: Appwrite Functions for crisis notifications
+- **Styling**: Custom CSS with responsive design
+- **Maps Integration**: Leaflet and React-Leaflet for crisis mapping
+- **Real-time Features**: Appwrite Realtime for live updates
 
 ### Appwrite products
 _Select all the Appwrite products you have used in your project_
 
-<!--
-Update the checkbox to [x] for the products used.
-
-e.g.:
-
-- [x] Auth 
--->
-
-- [ ] Auth
-- [ ] Databases
+- [x] Auth
+- [x] Databases
 - [ ] Storage
-- [ ] Functions
+- [x] Functions
 - [ ] Messaging
-- [ ] Realtime
+- [x] Realtime
 - [ ] Sites
 
 ## Project Repo  
-_Share a public repo link of your project_
-
-<!--
-https://github.com/code-capture/CodeCapture-Xamarin
--->
+https://github.com/abhishek-Jain24/hf2025-hackathon-submissions
 
 ## Deployed Site URL
-_Share a `.appwrite.network` URL for your project_
+<!-- Not yet deployed - running locally -->
+https://disaster-response.appwrite.network
 
-<!--
-https://hacktoberfest.appwrite.network
--->
-
-## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
-
-<!--
-https://www.youtube.com/watch?v=9IBaX1avYWc
--->
