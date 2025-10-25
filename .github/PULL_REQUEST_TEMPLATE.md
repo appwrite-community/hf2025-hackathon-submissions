@@ -34,4 +34,6 @@ _By submitting this PR, you agree to follow our Rules and Code of Conduct._
 ---
 
 ## Anything Else?  
-_Any other feedback, queries or information you would like to share with us?_
+_Any other feedback, queries or information you would like to share with us?_  
+
+- Looking forward to participating and learning from this hackathon!
