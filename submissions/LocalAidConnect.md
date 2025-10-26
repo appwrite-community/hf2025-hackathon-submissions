@@ -36,4 +36,4 @@ https://github.com/shiv669/LocalAid
 https://localaid.appwrite.network
 
 ## Demo Video/Photos  
-[To be added after development]
+A real-time emergency response platform connecting people in need with helpers during crises. Features include emergency request posting, smart resource matching, live notifications, and user verification - all powered by Appwrite's suite of services deployed on Appwrite Sites.
