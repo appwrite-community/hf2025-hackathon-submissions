@@ -36,7 +36,7 @@ https://github.com/sudhanshu-77/ai-content-assistant-hackathon
 https://ai-content-assistant-hackathon.appwrite.network
 
 ## Demo Video/Photos  
-https://your-demo-video-link.com
+https://drive.google.com/file/d/1-vDul27CxoSgKRRul3bUoCVZJD9xybqJ/view?usp=sharing
 
 ### Key Features Demonstrated:
 
