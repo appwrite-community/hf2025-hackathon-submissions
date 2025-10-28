@@ -7,13 +7,18 @@ SharanRP
 FaceGen - AI-Powered Avatar Generation API & Landing Page
 
 ## Project Description    
-FaceGen provides a simple REST API for generating unique AI-powered avatars based on natural language descriptions. The project includes a comprehensive landing page, API documentation, and a fast semantic avatar service built on Cloudflare Workers that serves curated avatar images from an Appwrite database.
+FaceGen provides a simple REST API for generating unique AI-powered avatars based on natural language descriptions. The project includes a comprehensive landing page and API documentation, deployed on **Appwrite Sites**, and a fast semantic avatar service built on Cloudflare Workers that serves curated avatar images from Appwrite.
 
-Users can request avatars by simply describing what they want (e.g., "professional", "doctor-smile", "creative-designer") and the service uses semantic search to intelligently match descriptions with curated avatar images, returning results globally via Cloudflare's edge network.
+Users can request avatars by simply describing what they want (e.g., "professional", "doctor-smile", "creative-designer") and the service uses semantic search to intelligently match descriptions with curated avatar images stored in **Appwrite Storage**, returning results globally via Cloudflare's edge network.
 
 The project demonstrates a sophisticated microservices architecture with two cooperating services:
-- **facegen-generation**: Handles image generation on-demand with semantic matching
-- **facegen-api**: Exposes the public API, manages request routing, queuing, and serves results from the avatar database
+- **facegen-generation**: Handles image generation on-demand with semantic matching, storing results in Appwrite Storage
+- **facegen-api**: Exposes the public API, manages request routing via Appwrite Databases, queuing in Appwrite, and serves avatar results from Appwrite Storage
+
+**Key Appwrite Integration:**
+- **Appwrite Sites**: Hosts the landing page and API documentation
+- **Appwrite Storage**: Stores all curated and generated avatar images
+- **Appwrite Databases**: Maintains metadata about avatars, semantic search indices, and request history
 
 ## Inspiration behind the Project  
 The inspiration came from recognizing the limitations of existing avatar generation solutions. Services like DiceBear provide random avatar generation, but lack the ability to generate realistic, semantically-aware avatars based on natural language descriptions. FaceGen.io bridges this gap by combining:
@@ -42,7 +47,7 @@ This solution enables modern applications to provide personalized, AI-powered av
 - [ ] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ ] Sites
+- [x] Sites
 
 ## Project Repo  
 https://github.com/SharanRP/facegen-web
