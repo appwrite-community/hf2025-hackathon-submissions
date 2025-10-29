@@ -27,10 +27,10 @@ Next.js, Node.js , TypeScript, JavaScript , Vercel, Appwrite , Tailwind CSS , Tw
 - [ ] Auth
 - [ ] Databases
 - [ ] Storage
-- [ ] Functions
+- [x] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ ] Sites
+- [x] Sites
 
 ## Project Repo
 
@@ -40,4 +40,10 @@ https://github.com/priyanshuthapliyal2005/mark.md
 https://markmd.appwrite.network/
 
 ## Demo Video/Photos
+
+<img width="1898" height="850" alt="image" src="https://github.com/user-attachments/assets/e6000c51-08fc-4a1c-9539-2e4466d6806d" />
+<img width="1893" height="854" alt="image" src="https://github.com/user-attachments/assets/791acde6-83c2-4d8f-93f3-28e6bdb9edb5" />
+
+https://youtu.be/Lh6dGgYS2jI
+
 
