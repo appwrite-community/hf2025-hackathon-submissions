@@ -1,7 +1,7 @@
 # Hackathon Submission: Argus
 
 ## GitHub handle
-@Waqibsk
+[@Waqibsk](https://github.com/Waqibsk)
 
 
 ## Project Title
