@@ -49,7 +49,6 @@ https://argus.appwrite.network/
 
 <img width="1919" height="952" alt="Screenshot 2025-10-29 142232" src="https://github.com/user-attachments/assets/c43b1f40-6677-4afe-bc11-7fa383f334e6" />
 <img width="1919" height="953" alt="Screenshot 2025-10-29 143825" src="https://github.com/user-attachments/assets/9354ce30-085b-4866-967c-a95a3ee06550" />
-
-<img width="1919" height="864" alt="Screenshot 2025-10-29 144345" src="https://github.com/user-attachments/assets/a6047ee5-4870-4b5a-a09d-a6fb7944839d" />
+<img width="1919" height="949" alt="Screenshot 2025-10-29 225151" src="https://github.com/user-attachments/assets/54769f93-2bba-4b01-8de1-ea5d18911ec3" />
 
 <img width="1919" height="948" alt="Screenshot 2025-10-29 143810" src="https://github.com/user-attachments/assets/c6ddbc30-ba12-4083-9d62-5d6a2f17f69c" />
