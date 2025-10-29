@@ -1,50 +1,28 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: mark.md
 
-## GitHub handle
-_Enter your GitHub handle_
+## Project Description
 
-<!--
-@adityaoberai
--->
+mark.md is a web tool that allows users to extract clean Markdown, HTML, or plain text from any website.
+It solves the problem of messy copy-paste using traditional methods (like Ctrl + C), where copied content often includes unwanted UI elements — especially on documentation sites such as Appwrite Docs or Supabase Docs.
 
-## Project Title
-_What is the name of your project?_
+With mark.md, documentation becomes easier to reuse, read, and integrate into LLMs or other developer workflows.
+Users can instantly export website content into structured formats, improving accuracy, accessibility, and productivity.
 
-<!--
-CodeCapture
--->
+## Inspiration behind the Project
 
-## Project Description    
-_What have you built during the hackathon?_
+Most documentation sites today don’t offer export options like Markdown, HTML, or plain text.
+This makes copying or reusing docs difficult and time-consuming.
 
-<!--
-The project I created is...
--->
+For both open-source and private projects, adding export support for every page (Markdown, HTML, XML, JSON, etc.) takes too much effort and maintenance.
+Also, while the Model Context Protocol (MCP) aims to make data accessible to AI tools, it’s not yet common across sites.
 
-## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
+mark.md solves this by giving a universal, no-setup solution — it can instantly extract and export any webpage into developer-friendly formats without needing direct integration or MCP support.
 
-<!--
-The reason I chose this idea/project was...
--->
+## Tech Stack
 
-## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
-
-<!--
-The technologies I used...
--->
+Next.js, Node.js , TypeScript, JavaScript , Vercel, Appwrite , Tailwind CSS , TweakCn, ShadCn. It includes custom extraction utilities for markdown, HTML, and plainText output.
 
 ### Appwrite products
-_Select all the Appwrite products you have used in your project_
-
-<!--
-Update the checkbox to [x] for the products used.
-
-e.g.:
-
-- [x] Auth 
--->
 
 - [ ] Auth
 - [ ] Databases
@@ -54,23 +32,12 @@ e.g.:
 - [ ] Realtime
 - [ ] Sites
 
-## Project Repo  
-_Share a public repo link of your project_
+## Project Repo
 
-<!--
-https://github.com/code-capture/CodeCapture-Xamarin
--->
+https://github.com/priyanshuthapliyal2005/mark.md
 
 ## Deployed Site URL
-_Share a `.appwrite.network` URL for your project_
+https://markmd.appwrite.network/
 
-<!--
-https://hacktoberfest.appwrite.network
--->
+## Demo Video/Photos
 
-## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
-
-<!--
-https://www.youtube.com/watch?v=9IBaX1avYWc
--->
