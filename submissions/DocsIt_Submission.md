@@ -1,7 +1,27 @@
 # Hackathon Submission: DocsIt
 
+## Name
+Shashank kumar rathour
+
+
 ## GitHub handle
 @Happyesss
+
+
+## Are you registered on our [Hackathon Signup page](https://apwr.dev/hf2025-hackathon)?
+_This is a mandatory step for all participants to be considered eligible for judging_
+
+- [x] Yes
+- [ ] No
+
+---
+
+## Rules and Code of Conduct  
+_By submitting this PR, you agree to follow our Rules and Code of Conduct._
+
+- [x] Yes
+
+---
 
 ## Project Title
 DocsIt - Free & Open Source AI-Powered Documentation Platform
@@ -161,3 +181,14 @@ DocsIt includes 9 professional templates:
 - **Personal Use**: Note-taking, journaling, project organization
 
 This project represents a significant step forward in making powerful, AI-enhanced documentation tools accessible to everyone, regardless of budget or technical expertise. By combining modern web technologies with intelligent AI assistance, DocsIt creates a documentation experience that's both powerful and delightful to use.
+
+---
+
+## Anything Else?  
+_Any other feedback, queries or information you would like to share with us?_
+
+DocsIt showcases the power of combining modern web technologies with AI to solve real-world problems. The project demonstrates comprehensive full-stack development skills, from frontend React/Next.js architecture to backend Appwrite integration, AI implementation with Gemini, and thoughtful UX design. 
+
+The platform is already production-ready with a live demo, comprehensive documentation, and a robust template system. This represents not just a hackathon project, but a genuinely useful tool that can benefit the developer community and beyond.
+
+Thank you for considering DocsIt for this hackathon! 🚀
