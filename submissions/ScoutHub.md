@@ -1,14 +1,13 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: ScoutHub
 
 ## GitHub handle
-_Enter your GitHub handle_
+
 @abinnovator
 <!--
 @adityaoberai
 -->
 
 ## Project Title
-_What is the name of your project?_
 ScoutHub
 
 <!--
@@ -16,7 +15,6 @@ CodeCapture
 -->
 
 ## Project Description    
-_What have you built during the hackathon?_
 ScoutHub is a web platform designed to empower athletes by enabling them to upload their training and performance videos and receive instant, ai powered personalized feedback. The goal is to streamline talent discovery, performance improvement, and skill assessment, making scouting and athlete mentorship more accessible and data-driven.
 
 
@@ -34,7 +32,6 @@ The reason I chose this idea/project was...
 -->
 
 ## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
 Typescript,
 React,
 Next.js,
@@ -56,17 +53,17 @@ e.g.:
 - [x] Auth 
 -->
 
-- [ x] Auth
-- [ x] Databases
-- [ x] Storage
+- [x] Auth
+- [x] Databases
+- [x] Storage
 - [ ] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ x] Sites
+- [x] Sites
 
 ## Project Repo  
 _Share a public repo link of your project_
-
+https://github.com/abinnovator/ScoutHub
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
 -->
