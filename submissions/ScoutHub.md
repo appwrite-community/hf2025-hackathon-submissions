@@ -23,7 +23,9 @@ The project I created is...
 -->
 
 ## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
+I created ScoutHub because I am a 13-year-old athlete and a goalkeeper. At my old club, I was taught striking, and—while I performed beyond expectations as a striker—I also became a strong goalkeeper by teaching myself. Since I wasn’t part of the club’s excellence program, I didn’t have access to specialized goalkeeper training, and the development squad didn’t provide this support.
+
+This personal experience made me realize how many young athletes miss out on proper coaching and feedback, particularly if they are learning new skills or trying to excel outside traditional paths. I wanted ScoutHub to help athletes like me get instant feedback, personalized advice, and opportunities that aren’t limited by their club or program. My hope is that ScoutHub empowers athletes everywhere to improve, discover their talents, and get noticed, no matter where they train.
 
 
 
