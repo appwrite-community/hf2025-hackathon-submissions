@@ -2,7 +2,7 @@
 
 ## GitHub handle
 
-@Bayyana-kiran
+@bayyana-kiran
 
 ## Project Title
 
