@@ -67,7 +67,7 @@ https://github.com/code-capture/CodeCapture-Xamarin
 -->
 
 ## Deployed Site URL
-https://scouthub-landing.appwrite.network
+https://scouthub.appwrite.network
 
 <!--
 https://hacktoberfest.appwrite.network
