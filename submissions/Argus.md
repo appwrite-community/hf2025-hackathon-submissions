@@ -43,7 +43,7 @@ The goal is to make it the go-to solution for students to quickly report, track,
 ## Project Repo  
 https://github.com/Waqibsk/Appwrite-Hackathon-2025
 ## Deployed Site URL
-https://argus.appwrite.network/
+https://6902fdeceec86b8416cd.appwrite.network
 
 ## Demo Video/Photos  
 
