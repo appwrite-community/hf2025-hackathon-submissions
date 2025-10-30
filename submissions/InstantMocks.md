@@ -21,7 +21,7 @@ InstantMocks
 
 ## Inspiration behind the Project
 
-#### The inspiration of this project stems from my own experience. During my time of learning the frontend I have always struggled to find APIs that I could integrate quickly and easily while making sure less of migration work with real APIs. After talking to my juniors and reading Reddit comments, I knew there needs to exist a tool like this. <br/> Therefore, I thought what better project than creating a tool for the developers that help them setup mock APIs instantly, without any hassle, and that too a tool that is open source. <br/> I hoped this tool existed when I was getting started out and thanks to the Appwrite hackathon that pushed me to create a tool for the new generation of developers.
+#### The inspiration of this project stems from my own experience. During my time of learning the frontend I have always struggled to find APIs that I could integrate quickly and easily while making sure less of migration work with real APIs. After talking to my juniors and reading Reddit comments, I knew there needs to exist a tool like this. <br/> Therefore, I thought what better project than creating a tool for the developers that help them setup mock APIs instantly, without any hassle, and using a tool that is open source. <br/> I hoped this tool existed when I was getting started out and thanks to the Appwrite hackathon that pushed me to create a tool for the new developers.
 
 > This project is my little way to return back to the open source community and next generation of developers ❤️
 
