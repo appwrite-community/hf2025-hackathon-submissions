@@ -10,6 +10,7 @@ _Enter your GitHub handle_
 
 ## Project Title
 _What is the name of your project?_
+
 mateQuest
 <!--
 CodeCapture
@@ -66,6 +67,7 @@ e.g.:
 
 ## Project Repo  
 _Share a public repo link of your project_
+
 https://github.com/anupSindagi/mateQuest
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
@@ -73,6 +75,7 @@ https://github.com/code-capture/CodeCapture-Xamarin
 
 ## Deployed Site URL
 _Share a `.appwrite.network` URL for your project_
+
 https://matequest.appwrite.network/
 <!--
 https://hacktoberfest.appwrite.network
@@ -80,6 +83,7 @@ https://hacktoberfest.appwrite.network
 
 ## Demo Video/Photos  
 _Share a 2-3 minute demo video of your project_
+
 https://www.youtube.com/watch?v=RNAvwpXaESk
 <!--
 https://www.youtube.com/watch?v=9IBaX1avYWc
