@@ -1,208 +1,382 @@
+import React, { useState } from 'react';
 import {
-  Dimensions,
-  Platform,
-  ScrollView,
-  StyleSheet,
-  Text,
   View,
-} from "react-native";
-import { Header } from "@/components/Header";
-import { useMemo, useRef, useState, useEffect } from "react";
-import { Card } from "@/components/Card";
-import { fontStyles } from "@/styles/font";
-import { IconArrowSmRight } from "@/assets/images/IconArrowSmRight";
-import { Code } from "@/components/Code";
-import { Logs } from "@/components/Logs";
-import BottomSheet, { BottomSheetView } from "@gorhom/bottom-sheet";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { Log } from "@/types/log";
-import { AppwriteException, Client } from "appwrite";
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ScrollView,
+  SafeAreaView,
+  Platform,
+  StatusBar,
+} from 'react-native';
+import { fontStyles } from '@/styles/font';
+import { LinearGradient } from 'expo-linear-gradient';
+import GroundingScreen from '@/screens/GroundingScreen';
+import CrisisScreen from '@/screens/CrisisScreen';
+import SettingsScreen from '@/screens/SettingsScreen';
+import CalmWaveScreen from '@/screens/CalmWaveScreen';
 
-const client = new Client()
-  .setProject(process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID ?? "")
-  .setEndpoint(process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT ?? "");
-
-// prevent ssr issues
-function ClientOnlyBottomSheet({ children, ...props }: any) {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return null;
-  }
-
-  return <BottomSheet {...props}>{children}</BottomSheet>;
-}
-
-function ClientOnlyGestureHandler({ children }: { children: React.ReactNode }) {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return <>{children}</>;
-  }
-
-  return <GestureHandlerRootView>{children}</GestureHandlerRootView>;
-}
+type Screen = 'home' | 'calm' | 'grounding' | 'crisis' | 'settings';
 
 export default function HomeScreen() {
-  const [connectionState, setConnectionState] = useState<
-    "idle" | "loading" | "success" | "error"
-  >("idle");
-  const bottomSheetRef = useRef<BottomSheet>(null);
-  const [currentSnapIndex, setCurrentSnapIndex] = useState<number>(0);
-  const [logs, setLogs] = useState<Array<Log>>([]);
-  const [cardPadding, setCardPadding] = useState<number>(0);
+  const [currentScreen, setCurrentScreen] = useState<Screen>('home');
 
-  const doPing = async () => {
-    setConnectionState("loading");
-    let log: Log;
-    try {
-      const res = await client.ping();
-      log = {
-        date: new Date(),
-        method: "GET",
-        path: "/v1/ping",
-        status: 200,
-        response: res,
-      };
-      setConnectionState("success");
-    } catch (err) {
-      log = {
-        date: new Date(),
-        method: "GET",
-        path: "/v1/ping",
-        status: err instanceof AppwriteException ? err.code : 500,
-        response: err instanceof AppwriteException ? err.message : "unknown",
-      };
-      setConnectionState("error");
-    }
-    setLogs([...logs, log]);
-  };
+  // Render different screens based on state
+  if (currentScreen === 'calm') {
+    return (
+      <View style={styles.screenContainer}>
+        <TouchableOpacity 
+          style={styles.backButton} 
+          onPress={() => setCurrentScreen('home')}
+        >
+          <Text style={styles.backButtonText}>← Back to Home</Text>
+        </TouchableOpacity>
+        <CalmWaveScreen />
+      </View>
+    );
+  }
 
-  const toggleBottomSheet = () => {
-    if (bottomSheetRef.current) {
-      const newIndex = currentSnapIndex === 1 ? 0 : 1;
-      setCurrentSnapIndex(newIndex);
-      bottomSheetRef.current.snapToIndex(newIndex);
-    }
-  };
+  if (currentScreen === 'grounding') {
+    return (
+      <View style={styles.screenContainer}>
+        <TouchableOpacity 
+          style={styles.backButton} 
+          onPress={() => setCurrentScreen('home')}
+        >
+          <Text style={styles.backButtonText}>← Back to Home</Text>
+        </TouchableOpacity>
+        <GroundingScreen />
+      </View>
+    );
+  }
 
-  const snapPoints = useMemo(
-    () => [Platform.OS === "android" ? 50 : 70, "50%", "90%"],
-    [],
-  );
+  if (currentScreen === 'crisis') {
+    return (
+      <View style={styles.screenContainer}>
+        <TouchableOpacity 
+          style={styles.backButton} 
+          onPress={() => setCurrentScreen('home')}
+        >
+          <Text style={styles.backButtonText}>← Back to Home</Text>
+        </TouchableOpacity>
+        <CrisisScreen />
+      </View>
+    );
+  }
 
-  const resolveSnapPoint = (point: string | number): number => {
-    if (typeof point === "number") return point;
-    if (point.endsWith("%")) {
-      const percent = parseFloat(point.replace("%", ""));
-      return (percent / 100) * Dimensions.get("window").height;
-    }
-    return 0;
-  };
+  if (currentScreen === 'settings') {
+    return (
+      <View style={styles.screenContainer}>
+        <TouchableOpacity 
+          style={styles.backButton} 
+          onPress={() => setCurrentScreen('home')}
+        >
+          <Text style={styles.backButtonText}>← Back to Home</Text>
+        </TouchableOpacity>
+        <SettingsScreen />
+      </View>
+    );
+  }
 
-  const handleSnapChange = (index: number) => {
-    setCardPadding(resolveSnapPoint(snapPoints[index]) + 48);
-    setCurrentSnapIndex(index);
-  };
-
+  // Home screen
   return (
-    <View style={{ flex: 1 }}>
-      <ClientOnlyGestureHandler>
-        <ScrollView>
-          <Header pingFunction={doPing} state={connectionState} />
-          <View
-            style={{ ...styles.cardContainer, paddingBlockEnd: cardPadding }}
+    <SafeAreaView style={styles.container}>
+      <StatusBar barStyle="light-content" />
+      <LinearGradient
+        colors={['#4A90B8', '#5B8C5A', '#6B7C8C']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.gradient}
+      >
+        <ScrollView 
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Header */}
+          <View style={styles.header}>
+            <View style={styles.logoContainer}>
+              <Text style={styles.logo}>🌊</Text>
+            </View>
+            <Text style={styles.title}>CalmWave</Text>
+            <Text style={styles.subtitle}>
+              Immediate calm when you need it most
+            </Text>
+          </View>
+
+          {/* Main Action - Calm Now */}
+          <TouchableOpacity
+            style={styles.primaryButton}
+            onPress={() => setCurrentScreen('calm')}
+            activeOpacity={0.8}
           >
-            <Card>
-              <View style={styles.cardHeader}>
-                <Text style={fontStyles.titleM}>Edit your app</Text>
+            <View style={styles.primaryButtonContent}>
+              <Text style={styles.primaryButtonIcon}>🌊</Text>
+              <View>
+                <Text style={styles.primaryButtonText}>Calm Now</Text>
+                <Text style={styles.primaryButtonSubtext}>
+                  Breathing & Relaxation
+                </Text>
               </View>
-              <Text>
-                <Code variant={"secondary"}>Edit </Code>
-                <Code variant={"primary"}>app/index.tsx</Code>
-                <Code variant={"secondary"}>
-                  to get started with building your app
-                </Code>
-              </Text>
-            </Card>
-            <Card href={"https://cloud.appwrite.io"}>
-              <View style={styles.cardHeader}>
-                <Text style={fontStyles.titleM}>Go to console</Text>
-                <IconArrowSmRight />
+            </View>
+          </TouchableOpacity>
+
+          {/* Secondary Actions */}
+          <View style={styles.actionsGrid}>
+            <TouchableOpacity
+              style={[styles.actionCard, styles.actionCardPrimary]}
+              onPress={() => setCurrentScreen('grounding')}
+              activeOpacity={0.8}
+            >
+              <View style={styles.actionCardHeader}>
+                <Text style={styles.actionIcon}>👁️</Text>
+                <Text style={styles.actionTitle}>Grounding</Text>
               </View>
-              <Text style={fontStyles.bodyM}>
-                Navigate to the console to control and oversee the Appwrite
-                services.
+              <Text style={styles.actionDescription}>
+                5-4-3-2-1 sensory exercise to anchor you in the present moment
               </Text>
-            </Card>
-            <Card href={"https://appwrite.io/docs"}>
-              <View style={styles.cardHeader}>
-                <Text style={fontStyles.titleM}>Explore docs</Text>
-                <IconArrowSmRight />
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.actionCard, styles.actionCardEmergency]}
+              onPress={() => setCurrentScreen('crisis')}
+              activeOpacity={0.8}
+            >
+              <View style={styles.actionCardHeader}>
+                <Text style={styles.actionIcon}>🆘</Text>
+                <Text style={styles.actionTitle}>Crisis Help</Text>
               </View>
-              <Text style={fontStyles.bodyM}>
-                Discover the full power of Appwrite by diving into our
-                documentation.
+              <Text style={styles.actionDescription}>
+                Emergency resources and hotlines available 24/7
               </Text>
-            </Card>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.actionCard, styles.actionCardSecondary]}
+              onPress={() => setCurrentScreen('settings')}
+              activeOpacity={0.8}
+            >
+              <View style={styles.actionCardHeader}>
+                <Text style={styles.actionIcon}>⚙️</Text>
+                <Text style={styles.actionTitle}>Settings</Text>
+              </View>
+              <Text style={styles.actionDescription}>
+                Customize breathing patterns and preferences
+              </Text>
+            </TouchableOpacity>
+
+            <View style={[styles.actionCard, styles.actionCardDisabled]}>
+              <View style={styles.actionCardHeader}>
+                <Text style={styles.actionIcon}>📚</Text>
+                <Text style={styles.actionTitle}>Learn</Text>
+              </View>
+              <Text style={styles.actionDescription}>
+                Understanding anxiety • Coming soon
+              </Text>
+            </View>
+          </View>
+
+          {/* Info Section */}
+          <View style={styles.infoSection}>
+            <Text style={styles.infoTitle}>💙 You're not alone</Text>
+            <Text style={styles.infoText}>
+              This app provides evidence-based techniques to help during moments
+              of anxiety or panic. All core features work offline, so help is
+              always available when you need it.
+            </Text>
+            <View style={styles.infoFooter}>
+              <Text style={styles.infoNote}>
+                ⚕️ Not a replacement for professional care
+              </Text>
+            </View>
           </View>
         </ScrollView>
-        <ClientOnlyBottomSheet
-          index={0}
-          snapPoints={snapPoints}
-          enablePanDownToClose={false}
-          handleComponent={null}
-          ref={bottomSheetRef}
-          onChange={handleSnapChange}
-        >
-          <BottomSheetView style={styles.bottomSheet}>
-            <Logs
-              toggleBottomSheet={toggleBottomSheet}
-              isOpen={currentSnapIndex > 0}
-              logs={logs}
-            />
-          </BottomSheetView>
-        </ClientOnlyBottomSheet>
-      </ClientOnlyGestureHandler>
-    </View>
+      </LinearGradient>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  bottomSheet: {
-    borderTopWidth: 1,
-    minHeight: Platform.OS === "android" ? 50 : 70,
+  container: {
     flex: 1,
-    borderColor: "#EDEDF0",
+    backgroundColor: '#4A90B8',
   },
-  cardContainer: {
-    paddingInline: 20,
-    display: "flex",
-    flexDirection: Dimensions.get("window").width < 1024 ? "column" : "row",
-    justifyContent: "center",
-    gap: 28,
+  gradient: {
+    flex: 1,
   },
-  scrollview: {
-    height: 200,
+  scrollContent: {
+    padding: 20,
+    paddingBottom: 40,
   },
-  cardHeader: {
-    display: "flex",
-    justifyContent: "space-between",
-    flexDirection: "row",
-    alignItems: "center",
+  screenContainer: {
+    flex: 1,
+    backgroundColor: '#F5F7FA',
+  },
+  backButton: {
+    position: 'absolute',
+    top: Platform.OS === 'ios' ? 50 : 20,
+    left: 20,
+    zIndex: 10,
+    backgroundColor: 'white',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 25,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 6,
+    elevation: 4,
+  },
+  backButtonText: {
+    ...fontStyles.titleM,
+    fontSize: 16,
+    color: '#2D3748',
+  },
+  header: {
+    alignItems: 'center',
+    marginTop: 20,
+    marginBottom: 32,
+  },
+  logoContainer: {
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    borderRadius: 40,
+    width: 80,
+    height: 80,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  logo: {
+    fontSize: 48,
+  },
+  title: {
+    ...fontStyles.titleL,
+    fontSize: 42,
+    color: 'white',
+    marginBottom: 8,
+    fontWeight: '700',
+    textShadowColor: 'rgba(0, 0, 0, 0.2)',
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
+  },
+  subtitle: {
+    ...fontStyles.bodyM,
+    fontSize: 17,
+    color: 'rgba(255, 255, 255, 0.95)',
+    textAlign: 'center',
+    paddingHorizontal: 20,
+  },
+  primaryButton: {
+    backgroundColor: 'white',
+    borderRadius: 20,
+    padding: 24,
+    marginBottom: 28,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 12,
+    elevation: 8,
+  },
+  primaryButtonContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  primaryButtonIcon: {
+    fontSize: 48,
+    marginRight: 20,
+  },
+  primaryButtonText: {
+    ...fontStyles.titleL,
+    fontSize: 28,
+    color: '#2D3748',
+    marginBottom: 4,
+  },
+  primaryButtonSubtext: {
+    ...fontStyles.bodyM,
+    fontSize: 15,
+    color: '#718096',
+  },
+  actionsGrid: {
+    marginBottom: 28,
+  },
+  actionCard: {
+    backgroundColor: 'rgba(255, 255, 255, 0.98)',
+    borderRadius: 16,
+    padding: 20,
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  actionCardPrimary: {
+    borderLeftWidth: 4,
+    borderLeftColor: '#4A90B8',
+  },
+  actionCardEmergency: {
+    borderLeftWidth: 4,
+    borderLeftColor: '#E53E3E',
+  },
+  actionCardSecondary: {
+    borderLeftWidth: 4,
+    borderLeftColor: '#718096',
+  },
+  actionCardDisabled: {
+    opacity: 0.6,
+    backgroundColor: 'rgba(255, 255, 255, 0.85)',
+  },
+  actionCardHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
     marginBottom: 8,
   },
-  editDescription: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "flex-start",
+  actionIcon: {
+    fontSize: 32,
+    marginRight: 12,
+  },
+  actionTitle: {
+    ...fontStyles.titleM,
+    fontSize: 20,
+    color: '#2D3748',
+  },
+  actionDescription: {
+    ...fontStyles.bodyM,
+    fontSize: 15,
+    color: '#4A5568',
+    lineHeight: 22,
+  },
+  infoSection: {
+    backgroundColor: 'rgba(255, 255, 255, 0.98)',
+    borderRadius: 16,
+    padding: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: 3,
+  },
+  infoTitle: {
+    ...fontStyles.titleM,
+    fontSize: 20,
+    color: '#2D3748',
+    marginBottom: 12,
+  },
+  infoText: {
+    ...fontStyles.bodyM,
+    fontSize: 15,
+    color: '#4A5568',
+    lineHeight: 24,
+    marginBottom: 16,
+  },
+  infoFooter: {
+    borderTopWidth: 1,
+    borderTopColor: '#E2E8F0',
+    paddingTop: 12,
+  },
+  infoNote: {
+    ...fontStyles.bodyM,
+    fontSize: 14,
+    color: '#718096',
+    fontStyle: 'italic',
   },
 });
