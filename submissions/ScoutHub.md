@@ -63,7 +63,7 @@ e.g.:
 - [x] Sites
 
 ## Project Repo  
-https://github.com/abinnovator/ScoutHub
+ Dashboard - https://github.com/abinnovator/ScoutHub landing - https://github.com/abinnovator/scouthub-landing
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
 -->
