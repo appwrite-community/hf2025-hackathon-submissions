@@ -1,4 +1,4 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: Tthing-iOS
 
 ## GitHub handle
 @sookim-1 [(sookim-1)](https://github.com/sookim-1)
