@@ -1,7 +1,7 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: ScoutHub
 
 ## Name
-_Enter your full name_
+Aadit Bhambri
 
 <!--
 
@@ -10,7 +10,7 @@ Aditya Oberai
 -->
 
 ## GitHub handle  
-_Enter your GitHub handle_
+@abinnovator
 
 <!--
 
@@ -21,7 +21,7 @@ _Enter your GitHub handle_
 ## Are you registered on our [Hackathon Signup page](https://apwr.dev/hf2025-hackathon)?
 _This is a mandatory step for all participants to be considered eligible for judging_
 
-- [ ] Yes
+- [x] Yes
 - [ ] No
 
 ---
