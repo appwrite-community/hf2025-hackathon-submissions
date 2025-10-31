@@ -99,7 +99,7 @@ https://github.com/code-capture/CodeCapture-Xamarin
 -->
 
 ## Deployed Site URL
-[_Share a `.appwrite.network` URL for your project_](https://Agri Sense-nishant-elite-coders.appwrite.network/)
+[[_Share a `.appwrite.network` URL for your project_](https://Agri Sense-nishant-elite-coders.appwrite.network/)](https://krishi-niti-nishant-elite-coders.appwrite.network/)
 
 <!--
 https://hacktoberfest.appwrite.network
