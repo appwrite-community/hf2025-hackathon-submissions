@@ -76,7 +76,8 @@ https://hacktoberfest.appwrite.network
 -->
 
 ## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
+https://youtu.be/u2MUW-WJfQw
+
 
 <!--
 https://www.youtube.com/watch?v=9IBaX1avYWc
