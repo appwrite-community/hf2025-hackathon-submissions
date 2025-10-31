@@ -13,7 +13,7 @@
 
 
 ## Project Description    
-### Krishi Niti AI is a smart, AI-powered agriculture assistant that helps farmers make data-driven decisions through crop recommendations, disease detection, and personalized advisory — built fully in Next.js and powered by Gemini AI, IoT sensors, and Appwrite for backend services.
+### Krishi Niti AI is a smart, AI-powered agriculture assistant that helps farmers make data-driven decisions through crop recommendations, disease detection, and personalized advisory, built fully in Next.js and powered by Gemini AI, IoT sensors, and Appwrite for backend services.
 ### Problem - Farmers today face challenges like uncertain weather, poor soil awareness, and lack of timely advice.
 Krishi Niti AI bridges this gap with a centralized platform that connects IoT-based farm sensors, AI-driven insights, and market data to empower farmers with real-time, localized, and sustainable solutions.
 <!--
