@@ -69,11 +69,7 @@ The project is built using modern web technologies with a focus on performance a
 https://github.com/blatant-striker/tic-tac-time
 
 ## Deployed Site URL
-_Add your deployment URL here once deployed (you can use Appwrite Sites, Netlify, Vercel, or other platforms)_
-
-<!--
-Example: https://tic-tac-time.appwrite.network
--->
+https://tic-tac-time.appwrite.network
 
 ## Demo Video/Photos  
 _Add a 2-3 minute demo video link here showcasing the gameplay, features, and Appwrite integration_
