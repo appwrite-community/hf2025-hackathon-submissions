@@ -1,11 +1,11 @@
-# Hackathon Submission: Krishi-niti AI
+# Hackathon Submission: Agri Sense AI
 
 ## GitHub handle
 @nishantrana07
 
 
 ## Project Title
-### Krishi-niti AI
+### Agri Sense AI
 <p>Project is built in Next js</p>
 <img width="1900" height="850" alt="image" src="https://github.com/user-attachments/assets/2d7c433c-1f6e-4f94-9832-531eb3913406" />
 <p>Dashboard consists of AI based features powered by gemini 2.5 latest</p>
@@ -92,14 +92,14 @@ e.g.:
 - [X] Sites
 
 ## Project Repo  
-https://github.com/NishantRana07/Krishi-Niti
+https://github.com/NishantRana07/Agri Sense
 
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
 -->
 
 ## Deployed Site URL
-[_Share a `.appwrite.network` URL for your project_](https://krishi-niti-nishant-elite-coders.appwrite.network/)
+[_Share a `.appwrite.network` URL for your project_](https://Agri Sense-nishant-elite-coders.appwrite.network/)
 
 <!--
 https://hacktoberfest.appwrite.network
