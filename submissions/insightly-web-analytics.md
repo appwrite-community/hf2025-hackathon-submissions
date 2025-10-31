@@ -1,4 +1,4 @@
-# Hackathon Submission: <PROJECT_NAME>
+# Hackathon Submission: Insightly
 
 ## GitHub handle
 Sahil-Gupta584
@@ -40,8 +40,4 @@ Yes I have deployed on vercel as well because somehow my projects deployment isn
 Maybe because of I am using Tanstack :(
 
 ## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
-
-<!--
-https://www.youtube.com/watch?v=9IBaX1avYWc
--->
+https://github.com/user-attachments/assets/6b8772c0-8bd6-406a-b3d5-e6110c2949c5
