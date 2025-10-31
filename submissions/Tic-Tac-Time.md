@@ -63,7 +63,7 @@ The project is built using modern web technologies with a focus on performance a
 - [ ] Functions
 - [ ] Messaging
 - [x] Realtime
-- [ ] Sites
+- [x] Sites
 
 ## Project Repo  
 https://github.com/blatant-striker/tic-tac-time
@@ -72,15 +72,8 @@ https://github.com/blatant-striker/tic-tac-time
 https://tic-tac-time.appwrite.network
 
 ## Demo Video/Photos  
-_Add a 2-3 minute demo video link here showcasing the gameplay, features, and Appwrite integration_
 
-<!--
-You can create a demo video showing:
-1. Authentication flow (login/guest mode)
-2. Creating and joining multiplayer rooms
-3. Playing in different game modes (Normal, Time Travel, AI)
-4. Real-time synchronization between players
-5. Win detection and game completion
-
-Upload to YouTube, Loom, or any video platform and paste the link here.
--->
+<img width="1920" height="1080" alt="Tic-Tac-Time Game Menu" src="https://github.com/user-attachments/assets/f60bf56e-9237-4bb4-a5e4-52f5452b6138" />
+<img width="1920" height="1080" alt="4D Game Board" src="https://github.com/user-attachments/assets/da817901-13c5-4b9d-8221-dea6afafd74c" />
+<img width="1920" height="1080" alt="Time Travel Mechanics" src="https://github.com/user-attachments/assets/e90ce523-79c6-4188-b620-a8659be2ffbe" />
+<img width="1920" height="1080" alt="Multiplayer Lobby" src="https://github.com/user-attachments/assets/7171ce58-9dc2-4a6d-b817-57918f79a05d" />
