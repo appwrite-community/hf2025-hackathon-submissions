@@ -18,7 +18,7 @@ The project consists of three main components:
 
 2. **Web Dashboard (Next.js 15)**: A modern, responsive web interface built with Next.js and Appwrite SDK that allows users to manage their AI memories, view usage analytics, deploy vector database instances, and generate API keys for programmatic access.
 
-3. **EizenDB Vector Database**: A custom-built vector database implementing the HNSW (Hierarchical Navigable Small Worlds) algorithm that runs entirely on Arweave blockchain, providing `O(log N)` search complexity across millions of high-dimensional vectors with permanent, censorship-resistant storage.
+3. **EizenDB Vector Database**: A [custom-built vector database](https://github.com/Itz-Agasta/Eizendb) implementing the HNSW (Hierarchical Navigable Small Worlds) algorithm that runs entirely on Arweave blockchain, providing `O(log N)` search complexity across millions of high-dimensional vectors with permanent, censorship-resistant storage.
 
 Key features include semantic memory search using natural language, automatic text-to-vector embedding generation with local models, per-user isolated blockchain contracts, subscription-based quota management, and comprehensive API documentation.
 
@@ -102,4 +102,8 @@ https://github.com/Itz-Agasta/axon
 https://axon-client-one.vercel.app/
 
 ## Demo Video/Photos
-https://youtu.be/-ykz3zIt7X4
+<img width="1333" height="805" alt="hero_context03" src="https://github.com/user-attachments/assets/422531c1-513a-45d3-b578-9b97f22350dd" />
+<br/><br/> 
+<div align="center">
+
+**Demo:** https://youtu.be/-ykz3zIt7X4
