@@ -1,0 +1,86 @@
+# Hackathon Submission: QuietSpace
+
+## GitHub handle
+_Enter your GitHub handle_
+
+<!--
+Laukikrathod2007  
+https://github.com/Laukikrathod2007
+-->
+
+## Project Title
+_What is the name of your project?_
+
+<!--
+QuietSpace
+-->
+
+## Project Description    
+_What have you built during the hackathon?_
+
+<!--
+QuietSpace is a productivity and focus web application designed to help users stay distraction-free, organize tasks, practice mindfulness, and maintain a calm working environment.
+Users can create an account, log in securely, manage focus sessions, and track tasks — powered by modern frontend tools and Appwrite backend services.
+-->
+
+## Inspiration behind the Project  
+_What is the story behind this project? Why did you choose to work on this specific idea?_
+
+<!--
+In today's digital age, distractions are everywhere. I built QuietSpace to help individuals — especially students and remote workers — maintain focus, reduce stress, and stay productive.
+The app was inspired by my own need to study and work without distractions, building a calm digital workspace for better focus and mental clarity.
+-->
+
+## Tech Stack    
+_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
+
+<!--
+- React (Vite)
+- Tailwind CSS
+- JavaScript / JSX
+- Appwrite Cloud
+- Netlify Hosting
+- Git & GitHub
+-->
+
+### Appwrite products
+_Select all the Appwrite products you have used in your project_
+
+<!--
+- [x] Auth
+- [x] Databases
+- [ ] Storage
+- [ ] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [ ] Sites
+-->
+
+- [x] Auth
+- [x] Databases
+- [ ] Storage
+- [ ] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [ ] Sites
+
+## Project Repo  
+_Share a public repo link of your project_
+
+<!--
+https://github.com/Laukikrathod2007/QuietSpace
+-->
+
+## Deployed Site URL
+_Share a `.appwrite.network` URL for your project_
+
+<!--
+https://quickspace007.netlify.app/
+-->
+
+## Demo Video/Photos  
+_Share a 2-3 minute demo video of your project_
+
+<!--
+🎥 Demo video coming soon — will update in PR
+-->
