@@ -2,7 +2,7 @@
 
 ## GitHub handle
 
-alains7
+AlainS7
 
 ## Project Title
 
@@ -88,98 +88,19 @@ https://github.com/alains7/relax
 
 ## Deployed Site URL
 
-This is a native mobile application built with React Native/Expo, not a web application. However, we have prepared:
-
-**Mobile App Distribution:**
-
-- iOS TestFlight: Coming soon (pending App Store review)
-- Android APK: Available for testing via EAS Build
-- Expo Go: Development version available
-
-**Repository & Documentation:**
-
-- Live documentation: https://github.com/alains7/relax
-- Setup guide: See `docs/quick-start.md`
-- Production deployment: See `GETTING_TO_PRODUCTION.md`
-
-For testing purposes, developers can:
-
-1. Clone the repository
-2. Run `npm install`
-3. Run `npx expo start`
-4. Test via Expo Go app (iOS/Android) or simulators
-
-**Future App Store URLs:**
-
-- Apple App Store: Submission planned for December 2025
-- Google Play Store: Submission planned for December 2025
+https://relax.appwrite.network/
 
 ## Demo Video/Photos
 
-**Demo Screenshots:**
+## Demo Video
 
-_Home Screen - Main Navigation Hub_
-
-- Beautiful gradient background with brand colors
-- Prominent "Calm Now" CTA for immediate access
-- Quick access cards for Grounding, Crisis Resources, and Settings
-- Clean, minimal design that doesn't distract during moments of anxiety
-
-_Breathing Exercise Screen_
-
-- Animated wave visualization synchronized with breathing rhythm
-- Scene selector: Choose from Ocean 🌊, Forest 🌲, Rain 🌧️, or Mountain ⛰️
-- Pattern selector: Basic (4-4), Sleep (4-7-8), or Extended (6-6)
-- Real-time countdown and phase tracking (inhale, hold, exhale)
-- Smooth scale and opacity animations for calming effect
-
-_Grounding Exercise Screen_
-
-- Step-by-step 5-4-3-2-1 sensory technique
-- Interactive prompts: "5 things you can see", "4 things you can touch", etc.
-- Progress indicator showing current step
-- Example prompts to guide users through the exercise
-- Fade-in animations for gentle progression
-
-_Crisis Resources Screen_
-
-- Emergency banner for immediate attention
-- International crisis hotlines (US, UK, Canada, Australia)
-- Click-to-call and SMS functionality
-- 24/7 availability information
-- Links to additional mental health resources
-
-_Settings Screen_
-
-- Breathing pattern preferences
-- Audio volume controls
-- Dark mode toggle
-- Privacy and data management
-- App information and version
-
-**Video Demo:**
-A 2-3 minute walkthrough video demonstrating all features is available upon request. The video showcases:
-
-1. App launch and home screen navigation
-2. Breathing exercise with scene changes and pattern selection
-3. Complete 5-4-3-2-1 grounding exercise walkthrough
-4. Crisis resources with hotline access
-5. Settings customization
-6. Smooth animations and transitions throughout
-
-**Key Highlights:**
-
-- Offline functionality demonstration
-- Smooth 60fps animations on breathing wave
-- Intuitive navigation and user experience
-- Calming color palette and professional design
-- Accessibility features for all users
+[![Watch the demo](https://img.youtube.com/vi/7xyril0PZv8/0.jpg)](https://youtu.be/7xyril0PZv8)
 
 ---
 
 ## Additional Information
 
-**Project Status:** MVP Complete ✅
+**Project Status:** MVP Complete
 
 - All core features implemented and tested
 - Comprehensive documentation included
@@ -188,7 +109,7 @@ A 2-3 minute walkthrough video demonstrating all features is available upon requ
 
 **Why CalmWave Stands Out:**
 
-1. **Offline-First**: Works without internet connectivity when needed most
+1. **Offline-First**: Will work without internet connectivity when needed most
 2. **Evidence-Based**: Uses proven techniques (breathing exercises, grounding)
 3. **Privacy-Focused**: No forced accounts, no tracking, data stays on device
 4. **Beautiful UX**: Professional design with calming animations

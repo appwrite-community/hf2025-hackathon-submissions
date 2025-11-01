@@ -1,5 +1,7 @@
 # CalmWave 🌊
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-relax.appwrite.network-4A90B8?style=for-the-badge&logo=appwrite&logoColor=white)](https://relax.appwrite.network/)
+
 > **Immediate, evidence-based grounding and calming during panic or anxiety attacks**
 
 CalmWave is a free, open-source React Native mobile app that provides instant access to calming interventions through breathing exercises, grounding techniques, nature sounds, and visual relaxation. Built with offline-first functionality to ensure help is always available when you need it most.
