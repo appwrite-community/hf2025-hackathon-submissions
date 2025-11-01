@@ -92,7 +92,7 @@ e.g.:
 - [X] Sites
 
 ## Project Repo  
-https://github.com/NishantRana07/Agri Sense
+[https://github.com/NishantRana07/Agri Sense](https://github.com/NishantRana07/Krishi-Niti)
 
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
