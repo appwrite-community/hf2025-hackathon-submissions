@@ -24,18 +24,20 @@ function App() {
       });
   }, []);
   return !loading ? (
-    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
-      <Header />
-      <main className="min-h-screen">
-        {/* Main content will go here */}
-        <div className="w-full py-8">
-          <h1>Welcome to AppWriteUp</h1>
-        </div>
-      </main>
-      <Footer />
+    <div className="min-h-screen flex flex-col flex-wrap content-between  align-middle bg-gray-400">
+      <div className="w-full">
+        <Header />
+        <main className="min-h-screen">
+          {/* Main content will go here */}
+          <div className="w-full py-8 justify-center  flex">
+            <h1>Welcome to AppWriteUp</h1>
+          </div>
+        </main>
+        <Footer />
+      </div>
     </div>
   ) : (
-    <div>Loading...</div>
+    <div className="items-center justify flex min-h-screen">Loading...</div>
   );
 }
 
