@@ -1,0 +1,41 @@
+# Hackathon Submission: mergemint
+
+## GitHub handle
+dikjain
+
+## Project Title
+mergemint
+
+## Project Description
+mergemint is a platform that turns open-source contribution into a game: repository owners connect GitHub via a webhook, and every PR that gets merged earns the contributor “MM points.” These points appear in a personal dashboard and can be redeemed for Solana SPL tokens listed in the built-in store. Our goal is to ensure that even the smallest contributor is rewarded and feels motivated to keep contributing, while maintainers attract fresh talent.
+
+## Inspiration behind the Project
+During Hacktoberfest I spoke with friends who wanted to join open source but felt blocked: most bounty-backed issues are too advanced for beginners, so enthusiasm fades quickly. mergemint flips that dynamic—encouraging newcomers to launch their own open-source ideas on the Solana blockchain instead of hunting for “easy” issues—so they stay motivated while still giving back to the community.
+
+## Tech Stack
+- Next.js  
+- Tailwind CSS  
+- Solana (client side)  
+- Appwrite (Functions + Sites)  
+- GitHub Webhooks  
+- Supabase (database & auth)  
+
+### Appwrite products
+- [ ] Auth
+- [ ] Databases
+- [ ] Storage
+- [x] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [x] Sites
+
+## Project Repo
+https://github.com/dikjain/mergemint
+
+## Deployed Site URL
+https://mergemint.appwrite.network
+
+## Demo Video/Photos
+https://www.youtube.com/watch?v=u7ycN4Is8Y0  
+
+*( i forgot to mention that mergemint is currently a prototype with a clear plan to scale; i'm hoping that redemption pools will be funded through partnerships with open-source-friendly companies or through Solana ecosystem grants.)*
