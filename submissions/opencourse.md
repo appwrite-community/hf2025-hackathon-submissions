@@ -55,7 +55,7 @@ e.g.:
 - [x] Sites
 
 ## Project Repo  
-[OpenCourse Repo](https://github.com/petipois/opencourse)
+[OpenCourse Repo](https://github.com/petipois/open-course)
 
 <!--
 https://github.com/code-capture/CodeCapture-Xamarin
