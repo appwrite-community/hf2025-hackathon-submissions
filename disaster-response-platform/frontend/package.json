@@ -1,0 +1,22 @@
+{
+    "name": "disaster-response-frontend",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "appwrite": "^13.0.0",
+        "leaflet": "^1.9.4",
+        "react-leaflet": "^4.2.1",
+        "react-router-dom": "^6.8.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.0.0",
+        "vite": "^4.3.0"
+    }
+}
