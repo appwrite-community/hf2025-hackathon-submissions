@@ -1,0 +1,52 @@
+# Hackathon Submission: ReliefBridge
+
+## GitHub handle
+N-Garai
+
+## Project Title
+ReliefBridge
+
+
+## Project Description    
+ReliefBridge is a real-time disaster relief coordination platform that bridges the gap between victims in need and volunteers ready to help during emergencies and natural disasters.
+Victims can request their help and volunteer can claim the task in real-time, allin a structured ,georefernced way.
+
+
+## Inspiration behind the Project  
+ReliefBridge was inspired by the recurring challenge of delayed aid during natural disasters. Too often, survivors struggle because resources exist but aren’t efficiently connected to those in need.
+Even traditional communication methods fail, and there's no centralized system to track and prioritize emergency requests.
+Our project bridges this gap by creating a streamlined platform that links donors, NGOs, and affected communities in real time—ensuring help reaches the right place at the right moment.
+
+
+## Tech Stack    
+Backend:Python 3.11(Core programming language),Flask 3.0,
+Frontend:HTML5/CSS3,Bootstrap 5,JavaScript (ES6+),Leaflet.js,Appwrite Web SDK(Real-time client)
+Additional Libraries:
+python-dotenv - Environment configuration
+geopy - Geocoding and distance calculations
+requests - HTTP client
+
+
+### Appwrite products
+_Select all the Appwrite products you have used in your project_
+
+
+- [x] Auth
+- [x] Databases
+- [ ] Storage
+- [ ] Functions
+- [ ] Messaging
+- [x] Realtime
+- [ ] Sites
+
+## Project Repo  
+https://github.com/N-Garai/ReliefBridge
+
+
+## Deployed Site URL
+https://web-production-ec9bd.up.railway.app/
+
+
+
+## Demo Video/Photos  
+https://drive.google.com/file/d/1oBcODUlDLnLjUxXtwViUUAGu3-JgJdMg/view?usp=sharing
