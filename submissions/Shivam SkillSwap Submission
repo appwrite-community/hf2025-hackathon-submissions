@@ -1,0 +1,72 @@
+# Hackathon Submission: Skill Swap
+
+## Name
+Shivam Raj
+
+## GitHub handle
+@shivam-raj12
+
+<!--
+@adityaoberai
+-->
+
+## Project Title
+Skill Swap: The New Way to Learn.
+
+<!--
+CodeCapture
+-->
+
+## Project Description    
+The project I created is SkillSwap which is a global platform where people exchange skills and knowledge directly — no money involved. Learn new things, share what you know, and connect with others who want to grow together.
+
+<!--
+The project I created is...
+-->
+
+## Inspiration behind the Project  
+As a hobby developer who isn’t pursuing any formal IT or computer science degree, I often faced challenges while learning online because most quality courses were too expensive. That’s when I thought — what if people could simply share what they know in exchange for learning something new? This idea inspired SkillSwap — a platform where people can trade their skills instead of paying for courses, making learning more accessible and collaborative for everyone.
+
+<!--
+The reason I chose this idea/project was...
+-->
+   
+
+
+### Appwrite products
+_Select all the Appwrite products you have used in your project_
+
+<!--
+Update the checkbox to [x] for the products used.
+
+e.g.:
+
+- [x] Auth 
+-->
+
+- [x] Auth
+- [x] Databases
+- [x] Storage
+- [x] Functions
+- [ ] Messaging
+- [x] Realtime
+- [x] Sites
+
+## Project Repo  
+https://github.com/shivam-raj12/skill-swap     and 
+https://github.com/shivam-raj12/SkillSwapFunctions for Functions
+
+<!--
+https://github.com/code-capture/CodeCapture-Xamarin
+-->
+
+## Deployed Site URL
+https://skill-swap.appwrite.network/
+
+
+## Demo Video/Photos  
+https://fra.cloud.appwrite.io/v1/storage/buckets/6905009a002beac7b2dd/files/690500ab002e5b2f2429/view?project=skill-swap&mode=admin
+
+<!--
+https://www.youtube.com/watch?v=9IBaX1avYWc
+-->
