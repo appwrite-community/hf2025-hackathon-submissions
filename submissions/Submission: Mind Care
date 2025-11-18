@@ -1,0 +1,78 @@
+# Hackathon Submission: Mind Care
+
+## GitHub handle
+
+@tcandra24
+
+<!--
+@adityaoberai
+-->
+
+## Project Title
+
+Mind Care
+
+<!--
+CodeCapture
+-->
+
+## Project Description
+
+A Project that help you track your mood, reflect, and grow emotionally, especially for people experiencing poor mental health.
+
+<!--
+The project I created is...
+-->
+
+## Inspiration behind the Project
+
+My story about why I created this project is my own experience of needing guidance in overcoming emotional problems.
+
+<!--
+The reason I chose this idea/project was...
+-->
+
+## Tech Stack
+
+The technology i used is Nextjs
+
+<!--
+The technologies I used...
+-->
+
+### Appwrite products
+
+<!--
+Update the checkbox to [x] for the products used.
+
+e.g.:
+
+- [x] Auth
+-->
+
+- [x] Auth
+- [x] Databases
+- [ ] Storage
+- [ ] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [x] Sites
+
+## Project Repo
+
+https://github.com/tcandra24/mind-care
+
+<!--
+https://github.com/code-capture/CodeCapture-Xamarin
+-->
+
+## Deployed Site URL
+
+https://mind-care.appwrite.network/
+
+<!--
+https://hacktoberfest.appwrite.network
+-->
+
+## Anything Else?  
+I worked on this project in just 2 weeks, maybe there are still bugs in it, but in the future this application will be an application that has an impact on people who really need a friend to talk to, a guide or a mentor.
