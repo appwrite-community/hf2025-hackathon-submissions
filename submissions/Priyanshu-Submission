@@ -1,0 +1,63 @@
+# Hackathon Submission: Bugbell
+
+## GitHub handle
+_Enter your GitHub handle_
+
+@pscsdev
+
+## Project Title
+_What is the name of your project?_
+
+Bugbell
+
+## Project Description    
+_What have you built during the hackathon?_
+
+The project I created is a simple github issue notifier for your starred repos.
+
+## Inspiration behind the Project  
+_What is the story behind this project? Why did you choose to work on this specific idea?_
+
+We spent a lot of time hopping between different repos to find that one "issue" we are interested to contribute to.
+
+## Tech Stack    
+_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
+
+Next.js
+BetterAuth (I tried github oauth integration using appwrite but the docs are not well updated and I was facing the issue with appwrite github oauth for a while, so I switched to better-auth),
+TailwindCSS, 
+Appwrite Databases
+
+### Appwrite products
+_Select all the Appwrite products you have used in your project_
+
+<!--
+Update the checkbox to [x] for the products used.
+
+e.g.:
+
+- [x] Auth 
+-->
+
+- [ ] Auth
+- [x] Databases
+- [ ] Storage
+- [ ] Functions
+- [ ] Messaging
+- [ ] Realtime
+- [x] Sites
+
+## Project Repo  
+_Share a public repo link of your project_
+
+https://github.com/pscsdev/bugbell
+
+## Deployed Site URL
+_Share a `.appwrite.network` URL for your project_
+
+https://bugbell.appwrite.network/
+
+## Demo Video/Photos  
+_Share a 2-3 minute demo video of your project_
+
+https://youtu.be/7oMyol1rgjs
