@@ -1,50 +1,43 @@
-# Hackathon Submission: <PROJECT_NAME>
+
+# Hackathon Submission: QIExplorer
 
 ## GitHub handle
-_Enter your GitHub handle_
 
-<!--
-@adityaoberai
--->
+https://www.github.com/sanikaap
 
 ## Project Title
-_What is the name of your project?_
 
-<!--
-CodeCapture
--->
+QIExplorer
 
 ## Project Description    
-_What have you built during the hackathon?_
 
-<!--
-The project I created is...
--->
+
+QIExplorer is a web dashboard that acts as a Decentralized AI Agent for financial risk and arbitrage in the cryptocurrency market. It leverages the powerful IBM Granite time-series model from Hugging Face to provide users with a suite of tools, including AI-powered price forecasting, real-time risk analysis with confidence scores, and instant arbitrage opportunity detection. The goal is to simplify complex market analysis and empower traders to make smarter, data-driven decisions.
+
 
 ## Inspiration behind the Project  
-_What is the story behind this project? Why did you choose to work on this specific idea?_
 
-<!--
-The reason I chose this idea/project was...
--->
+
+The inspiration for QIExplorer comes from the inherent complexity and volatility of the cryptocurrency market. For many traders, identifying genuine opportunities while managing risk is a constant challenge. I wanted to build a tool that could bring the power of state-of-the-art open-source AI models to the everyday crypto trader.
+
+By integrating a specific, high-performance model like IBM's Granite from the Hugging Face ecosystem, the project aims to democratize access to sophisticated financial insights. The name "Quantum Intelligence" reflects the idea of using advanced AI to process vast amounts of market data, uncovering hidden patterns and providing users with a predictive edge.
+
 
 ## Tech Stack    
-_How have you built this project? Mention the technologies/methods/platforms you used to build your project_
 
-<!--
-The technologies I used...
--->
+
+The project is built with a modern frontend stack designed for performance and a great user experience:
+- **Core Framework:** React with TypeScript and Vite
+- **AI Integration:** Hugging Face (specifically the IBM Granite time-series model)
+- **Data Source:** CoinGecko API for real-time cryptocurrency market data
+- **UI/Styling:** Tailwind CSS and shadcn/ui for a clean, responsive, and accessible component library
+- **Data Visualization:** Recharts for creating interactive charts
+- **Video Hosting:** Vimeo for embedding the product demo without impacting bundle size
+- **Deployment:** Appwrite Sites for fast, simple, and scalable hosting
+
 
 ### Appwrite products
-_Select all the Appwrite products you have used in your project_
 
-<!--
-Update the checkbox to [x] for the products used.
-
-e.g.:
-
-- [x] Auth 
--->
 
 - [ ] Auth
 - [ ] Databases
@@ -52,25 +45,16 @@ e.g.:
 - [ ] Functions
 - [ ] Messaging
 - [ ] Realtime
-- [ ] Sites
+- [x] Sites - used
 
 ## Project Repo  
-_Share a public repo link of your project_
 
-<!--
-https://github.com/code-capture/CodeCapture-Xamarin
--->
+https://github.com/sanikaap/QIE-Hk
 
 ## Deployed Site URL
-_Share a `.appwrite.network` URL for your project_
 
-<!--
-https://hacktoberfest.appwrite.network
--->
+ https://qie-hk.appwrite.network
 
 ## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
 
-<!--
-https://www.youtube.com/watch?v=9IBaX1avYWc
--->
+https://vimeo.com/1128437225?share=copy&fl=sv&fe=ci
