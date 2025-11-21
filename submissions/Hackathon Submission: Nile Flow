@@ -1,0 +1,70 @@
+Hackathon Submission: Nile Flow
+GitHub handle
+
+@YourGitHubUsername
+
+Project Title
+
+Nile Flow — The Hyperlocal, Culturally Tuned Commerce Engine
+
+Project Description
+
+Nile Flow is a next-generation eCommerce platform built to empower local businesses and consumers across Africa through a hyperlocal digital economy.
+
+The platform dynamically adapts to local languages, currencies, and cultural trends, creating a personalized commerce experience for every community. Sellers can set up stores instantly, buyers can shop with localized interfaces, and both interact through a social layer that turns shopping into a community experience.
+
+During this hackathon, the project focused on integrating Appwrite as the core backend — powering authentication, product management, order processing, and payment flow — establishing the foundation for a scalable, African-first commerce ecosystem.
+
+Inspiration behind the Project
+
+In Africa, eCommerce platforms often fail to reflect local identity and community values. Most systems are copy-paste versions of Western models that don’t consider local languages, limited internet infrastructure, or region-specific payment systems.
+
+Nile Mart was born from a desire to build something by Africa, for Africa — a commerce platform that feels local everywhere it goes, yet runs on cutting-edge global technology. The mission is simple: to bridge culture and commerce, empower local sellers, and make buying online as natural as visiting a neighborhood market.
+
+Tech Stack
+
+Frontend: React + Vite + Tailwind CSS (for the web version), Expo React Native (for the mobile version)
+Backend: Node.js + Express + Appwrite SDK
+Database: Appwrite Databases
+Storage: Appwrite Storage for images and media
+AI Layer: OpenAI API for personalized recommendations and conversational commerce
+Deployment: Appwrite Cloud + Vercel
+
+Appwrite products
+
+Select all the Appwrite products you have used in your project
+
+ [*]Auth
+
+  [*] Databases
+
+  [*]Storage
+
+  [*]Functions
+
+  [*]Messaging
+
+  [*]Realtime
+
+ [] Sites
+
+Project Repo
+
+https://github.com/Anthony478-ui/Nile-Mart-Web.git
+
+Deployed Site URL
+
+https://nileflow.co.ke
+
+
+
+Demo Video/Photos
+
+
+📸 Screenshots:
+
+Home Screen – localized products feed
+
+Product Details – Appwrite-powered reviews and storage
+
+Admin Dashboard – order management via Appwrite Databases
